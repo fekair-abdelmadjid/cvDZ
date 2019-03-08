@@ -1,0 +1,1316 @@
+body {
+    font-family: sans-serif;
+    background: #ededed;
+}
+
+h1, h2, h3, h4 {
+    font-family: inherit;
+
+}
+
+/*===============Begin navbar===============*/
+.navbar .navbar-header a {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    position: relative;
+    top: 8px;
+    margin-right: 10px;
+    font-size: 40px;
+    color: #ffffff;
+
+}
+
+.navbar-brand span {
+    color: #4CAF50;
+}
+
+.navbar-inverse .navbar-nav > li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #BBB;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li:hover {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li img {
+    position: relative;
+    top: 5px;
+    right: 1px;
+}
+
+.navbar-inverse .navbar-nav .nothover:hover {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu li a {
+    color: #333333;
+}
+
+/*===============End navbar===============*/
+
+.alert {
+    margin-top: 80px;
+}
+
+/*===============begin login===============*/
+.Auth {
+    margin-top: 200px;
+    margin-bottom: 400px;
+}
+
+.Auth .btn {
+    border-radius: 0px;
+}
+
+/*===============End login===============*/
+/*===============Begin create cv===============*/
+
+.formulaire {
+    margin-top: 80px;
+    margin-bottom: 400px;
+}
+
+.formulaire h1 {
+    margin-bottom: 50px;
+}
+
+.formulaire form {
+    position: relative;
+    left: 80px;
+}
+
+.formulaire form .form-control {
+    width: 600px;
+}
+
+.formulaire form .form-control:hover {
+    border: 1px solid #4CAF50;
+}
+
+.formulaire form .form-group li {
+    list-style: none;
+    color: #B10000;
+}
+
+.ParamaetreCompte form .form-group li {
+    list-style: none;
+    color: #B10000;
+}
+
+.formulaire form .col-sm-2 {
+    width: 17.66666667%;
+}
+
+.formulaire2 form {
+    position: relative;
+    left: 20px;
+}
+
+.formulaire2 form .col-sm-2 {
+    width: 21.66666667%;
+}
+
+/*===============End create cv===============*/
+
+/*===============Begin index===============*/
+.cvtable {
+    margin-bottom: 50px;
+}
+
+.cvtable .row {
+    margin-top: 40px;
+    padding: 0 10px;
+}
+
+.cvtable .clickable {
+    cursor: pointer;
+}
+
+.cvtable .panel-heading div {
+    margin-top: -18px;
+    font-size: 15px;
+}
+
+.cvtable .panel-heading div span {
+    margin-left: 5px;
+}
+
+.cvtable .panel-heading a {
+    position: relative;
+    bottom: 27px;
+}
+
+.cvtable .panel-heading h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cvtable .panel-body {
+    display: none;
+}
+
+/*===============End index===============*/
+
+/*===============Begin user prfile===============*/
+
+/*===============Profile container===============*/
+.profile {
+    margin: 20px 0;
+    margin-top: 80px;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+    margin-right: 0px;
+}
+
+.profile-usermenu {
+    margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+    border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+    background-color: #fafcfd;
+    color: #5b9bd1;
+    padding-left: 4px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    -transition: padding 0.5s ease;
+}
+
+.profile-usermenu ul li.active {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+    color: #333333;
+    background-color: #f6f9fb;
+    border-left: 2px solid #5b9bd1;
+    margin-left: -2px;
+}
+
+.profile-content {
+    color: #333333;
+}
+
+.profile-content .panel .panel-heading h3 {
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+.profile-content .panel table tr th form .btn {
+    margin-bottom: 3px;
+}
+
+/*===============Profile Content===============*/
+.profile-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 460px;
+}
+
+.profile-content .formulaire2 {
+    margin-left: 50px;
+}
+
+.profile-content .formulaire2 .container form .photo {
+    margin-top: 15px;
+}
+
+.profile-content .formulaire2 .container form button {
+    margin-top: 15px;
+}
+
+/*===============End user profile===============*/
+
+/*===============Begin index===============*/
+
+/*===============Begin slide===============*/
+.presentationservice .btn {
+    background-color: #5DBE59;
+    border: 1px solid #5DBE59;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.presentationservice .btn-primary:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #5DBE59;
+}
+
+.presentationservice .btn {
+    border-radius: 0px;
+}
+
+.presentationservice .carousel-caption {
+    position: absolute;
+    bottom: 140px;
+    background-color: rgba(3, 3, 3, 0.3);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.presentationservice .my-caption .carousel-caption {
+    position: absolute;
+    bottom: 70px;
+}
+
+.presentationservice .carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #EEE;
+}
+
+.presentationservice .carousel-indicators .active {
+    height: 15px;
+    width: 15px;
+    background-color: #5DBE59;
+    border: 1px solid #5DBE59;
+}
+
+/*===============End slide===============*/
+
+/*===============Begin section about===============*/
+
+.about .about-background {
+    padding-top: 20px;
+    background-color: #5dbe59;
+    color: #FFF;
+    height: 250px;
+}
+
+.about .about-info {
+    margin-top: 50px;
+}
+
+.about h1 {
+    font-weight: 200;
+}
+
+.about img {
+    position: relative;
+    height: 250px;
+    width: 300px;
+}
+
+/*===============End section about===============*/
+
+/*===============Begin section features===============*/
+.features {
+    background-color: #e6e6e6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features h2 {
+    margin-bottom: 50px;
+}
+
+.features .feat {
+    margin-bottom: 30px;
+}
+
+.features .feat p {
+    line-height: 2em;
+}
+
+.features .feat span.glyphicon {
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+
+/*===============Begin section features===============*/
+
+/*===============Begin presenation===============*/
+.presentation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.presentation h2 {
+    margin-left: 50px;
+}
+
+.presentation a {
+    position: relative;
+    float: right;
+    right: 10px;
+    bottom: 40px;
+    font-weight: bolder;
+    color: #4CAF50;
+}
+
+.presentation .carousel {
+    padding-bottom: 30px;
+}
+
+.presentation .carousel .item {
+    margin-left: 50px;
+}
+
+.presentation .carousel .src-image {
+    display: none;
+}
+
+.presentation .carousel .card {
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0;
+    background-color: #4CAF50;
+    color: rgb(136, 172, 217);
+}
+
+.presentation .carousel .card .header-bg {
+    /* This stretches the canvas across the entire hero unit */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px #FFF solid;
+    /* This positions the canvas under the text */
+    z-index: 1;
+}
+
+.presentation .carousel .card .avatar {
+    position: relative;
+    margin-top: 15px;
+    z-index: 100;
+}
+
+.presentation .carousel .card .avatar img {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 30, 0.8);
+}
+
+.presentation .carousel .card .content a {
+    position: relative;
+    bottom: 5px;
+    right: 80px;
+}
+
+.presentation .carousel .carousel-indicators {
+    position: relative;
+    top: 250px;
+}
+
+.presentation .carousel .carousel-indicators li {
+    border-color: #4CAF50;
+}
+
+.presentation .carousel .carousel-indicators .active {
+    background-color: #4CAF50;
+}
+
+.presentation .carousel .card .content p {
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+/*===============End presenation===============*/
+
+/*===============Begin notreobjectif===============*/
+.notreobjectif {
+    margin-top: 50px;
+    background: url('../uploads/Sitephoto/stats.jpeg') no-repeat center center fixed;
+    min-height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.notreobjectif .objectif {
+    background-color: rgba(2, 2, 2, 0.7);
+    color: #B6B5B5;
+    min-height: 400px;
+    padding-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.notreobjectif h1 {
+    margin-top: 80px;
+}
+
+/*===============End notreobjectif===============*/
+
+/*===============Begin preinscription===============*/
+.preinscription {
+    position: relative;
+    background-color: #5dbe59;
+    height: 200px;
+    top: 250px;
+}
+
+.preinscription .preinscriptionphoto img {
+    position: relative;
+    bottom: 100px;
+}
+
+.preinscription .preinscriptionlien {
+    position: relative;
+    bottom: 10px;
+    right: 100px;
+}
+
+.preinscription .preinscriptionlien a {
+    position: relative;
+    bottom: 5px;
+}
+
+.preinscription .preinscriptionlien {
+    color: #ffffff;
+}
+
+.preinscription .preinscriptionlien .btn {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.preinscription .preinscriptionlien .btn:hover {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    color: #4CAF50;
+}
+
+/*===============End preinscription===============*/
+
+/* End index */
+
+/*===============Begin parcourir cv===============*/
+.navbarsearch {
+    margin-top: 90px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.navbarsearch .container .filtrelable {
+    position: relative;
+    top: 8px;
+    left: 30px;
+}
+
+.navbarsearch .form-control:hover {
+    border: 1px solid #4CAF50;
+}
+
+.navbarsearch .form-control {
+    margin-bottom: 10px;
+}
+
+.navbarsearch form label {
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
+.presentecv {
+    margin-top: 250px;
+}
+
+.presentecv .card {
+    position: relative;
+    left: 50%;
+    margin-bottom: 30px;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    min-height: 400px;
+    background: #fff;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.presentecv .card:hover {
+    box-shadow: 0 30px 70px rgba(0, 0, 0, .2);
+}
+
+.presentecv .card .box {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.presentecv .card .box .img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.presentecv .card .box .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.presentecv .card .box a{
+    text-decoration: none;
+}
+
+
+.presentecv .card .box h2 {
+    font-size: 20px;
+    color: #262626;
+    margin: 20px auto;
+}
+
+.presentecv .card .box h2 span {
+    font-size: 14px;
+    background: #4CAF50;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 15px;
+}
+
+.presentecv .card .box p {
+    color: #262626;
+}
+
+.presentecv .card .box span {
+    display: inline-flex;
+}
+
+.presentecv .card .box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.presentecv .card .box ul li {
+    list-style: none;
+    float: left;
+}
+
+.presentecv .card .box ul li a {
+    display: block;
+    color: #aaa;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.presentecv .card .box ul li:hover a {
+    color: #e91e63;
+    transform: rotateY(360deg);
+}
+
+.presentecv .paginationCv .pagination > li > a, .pagination > li > span {
+    border-radius: 50% !important;
+    margin: 0 5px;
+}
+
+/*===============End parcourir cv===============*/
+
+/*===============Begin view cv==============*/
+
+.sidebar-wrapper .name {
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+/*===============End view cv===============*/
+
+/*===============Begin contacte===============*/
+.contacte .btn {
+    border-radius: 0px;
+}
+
+/*===============End contacte===============*/
+
+/*===============Begin resetpassword===============*/
+.resetpassword {
+    margin-top: 200px;
+    margin-bottom: 400px;
+}
+
+/*===============End resetpassword===============*/
+
+/*===============Begin goTop===============*/
+.goTop {
+    position: fixed;
+    right: 10px;
+    top: 584px;
+    padding: 10px;
+    z-index: 999;
+    background: #26a69a;
+    opacity: 0.40;
+
+}
+
+.goTop span {
+    color: #ffffff;
+}
+
+/*===============End goTop===============*/
+
+/*===============Begin goTop===============*/
+.step {
+    margin-top: 90px;
+}
+
+.step h1 span {
+    color: #4CAF50;
+}
+
+.step .timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+
+.step .timeline .timeline-panel {
+    cursor: pointer;
+}
+
+.step .timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 25px;
+    margin-right: -1.5px;
+}
+
+.step .timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.step .timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+
+.step .timeline > li:after {
+    clear: both;
+}
+
+.step .timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+
+.step .timeline > li:after {
+    clear: both;
+}
+
+.step .timeline > li > .timeline-panel {
+    width: calc(100% - 75px);
+    float: right;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.step .timeline > li > .timeline-panel:before {
+    position: absolute;
+    top: 26px;
+    left: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #ccc;
+    border-left: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    content: " ";
+}
+
+.step .timeline > li > .timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    left: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-right: 14px solid #fff;
+    border-left: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.step .timeline > li > .timeline-badge {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    margin-right: -25px;
+    background-color: #999999;
+    z-index: 100;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.step .timeline > li.timeline-inverted > .timeline-panel {
+    float: left;
+}
+
+.step .timeline > li.timeline-inverted > .timeline-panel:before {
+    border-right-width: 0;
+    border-left-width: 15px;
+    right: -15px;
+    left: auto;
+}
+
+.step .timeline > li.timeline-inverted > .timeline-panel:after {
+    border-right-width: 0;
+    border-left-width: 14px;
+    right: -14px;
+    left: auto;
+}
+
+.step .timeline-badge.primary {
+    background-color: #2e6da4 !important;
+}
+
+.step .timeline-badge.success {
+    background-color: #3f903f !important;
+}
+
+.step .timeline-badge.warning {
+    background-color: #f0ad4e !important;
+}
+
+.step .timeline-badge.danger {
+    background-color: #d9534f !important;
+}
+
+.step .timeline-badge.info {
+    background-color: #5bc0de !important;
+}
+
+.step .timeline-title {
+    margin-top: 0;
+    color: inherit;
+}
+
+.step .timeline-body > p,
+.timeline-body > ul {
+    margin-bottom: 0;
+}
+
+.step .timeline-body > p + p {
+    margin-top: 5px;
+}
+
+.step .timeline-body {
+    display: none;
+}
+
+/*===============Begin goTop===============*/
+
+/*===============Begin Offre===============*/
+/* Begin search offre */
+.search-offre {
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.search-offre h3 {
+    float: left;
+    margin-bottom: 25px;
+    color: #262626;
+}
+
+.search-offre .search {
+    background-color: #FFF;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+
+}
+
+.search-offre .form-control {
+    border: 1px solid #AAA;
+}
+
+/* End search offre */
+
+/* Begin offre block */
+.offers-block {
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.offers-block .offers {
+    padding: 50px 20px;
+    width: 100%;
+    min-height: 600px;
+    background-color: #FFF;
+}
+
+.offers-block .offre {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #AAA;
+    padding: 20px 10px
+}
+
+/* Begin offre-title */
+.offers-block h4 {
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #262626;
+    line-height: 21px
+}
+
+.offers-block p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #404040
+
+}
+
+.offers-block .offre-user p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+
+    .offers-block .offre-user {
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .offers-block .offre-user {
+        margin-right: 100px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+}
+
+/* End offre-title */
+
+/* Begin offre Detail */
+.offers-block .offers ul li {
+    float: left;
+    margin-right: 20px
+}
+
+.offers-block .offers .offre-detail {
+    margin-left: 25px;
+    margin-top: -30px
+}
+
+@media (max-width: 300px) {
+
+    .offers-block .offers ul li {
+        margin-top: 10px;
+    }
+
+}
+
+/* End offre Detail */
+
+/* End offre block */
+
+.presente-offre {
+    margin-top: 100px;
+    color: #656d6d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.presente-offre h1, h2, h3 {
+    color: #333;
+}
+
+/* Begin present title */
+.presente-offre .offre-present-title {
+    min-height: 300px;
+    background: #FFF;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+
+.presente-offre .offre-present-title .title-top {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #AAA;
+    margin-bottom: 30px;
+}
+
+.presente-offre .offre-present-title h1 {
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.presente-offre .offre-present-title ul li {
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3d4242;
+}
+
+.presente-offre .offre-present-title ul li span {
+    font-size: 13px;
+    color: #656d6d;
+}
+
+.presente-offre .offre-present-title ul li .span1 {
+    margin-left: 50px;
+}
+
+.presente-offre .offre-present-title ul li .span2 {
+    margin-left: 57px;
+}
+
+.presente-offre .offre-present-title ul li .span3 {
+    margin-left: 78px;
+}
+
+.presente-offre .offre-present-title ul li .span4 {
+    margin-left: 60px;
+}
+
+.presente-offre .offre-present-title ul li .span5 {
+    margin-left: 50px;
+}
+
+.presente-offre .offre-present-title ul li .span6 {
+    margin-left: 65px;
+}
+
+.presente-offre .offre-present-title ul li .span7 {
+    margin-left: 70px;
+}
+
+/* End present title */
+
+/* Begin present Entreprise */
+.presente-offre .offre-present-entreprise {
+    background: #FFF;
+    margin-right: -15px;
+}
+
+.presente-offre .offre-present-entreprise h4 {
+    position: relative;
+    bottom: 30px;
+}
+
+/* End present Entreprise */
+
+/* Begin present Detaile */
+.presente-offre .offre-present-detail {
+    background: #FFF;
+    padding: 10px 20px;
+}
+
+.presente-offre .offre-present-detail h2 {
+    font-size: 24px;
+}
+
+.presente-offre .offre-present-detail .block {
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.presente-offre .offre-present-detail .block .btn {
+    width: 200px;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+/* End present Detaile */
+
+/* Begin offre presente */
+/* End offre presente */
+
+/*===============End Offre===============*/
+
+/*===============Begin footer===============*/
+.footer footer {
+    position: relative;
+    max-height: 317px;
+    margin-top: 200px;
+}
+
+.footer .footer {
+    max-height: 260px;
+    margin-top: 2px;
+}
+
+.footer .footer-bottom {
+    max-height: 57px;
+}
+
+.footer .full {
+    width: 100%;
+}
+
+.footer .gap {
+    height: 30px;
+    width: 100%;
+    clear: both;
+    display: block;
+}
+
+.footer .footer {
+    background: #222;
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #222;
+    border-top: 1px solid #222;
+}
+
+.footer .footer p {
+    margin: 0;
+}
+
+.footer .footer img {
+    max-width: 100%;
+}
+
+.footer .footer h3 {
+    border-bottom: 1px solid #4CAF50;
+    color: #54697E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase;
+}
+
+.footer .footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+
+.footer .footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+
+.footer .footer a {
+    color: #78828D
+}
+
+.footer .supportLi h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: normal;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+
+.footer .newsletter-box input#appendedInputButton {
+    background: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    clear: both;
+    width: 100%;
+}
+
+.footer .newsletter-box .btn {
+    border: medium none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.footer .newsletter-box {
+    overflow: hidden;
+}
+
+.footer .bg-gray {
+    background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+    box-shadow: 0 1px 0 #B4B3B3;
+}
+
+.footer .social li {
+    background: none repeat scroll 0 0 #B5B5B5;
+    border: 2px solid #B5B5B5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+.footer .social li:hover {
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+}
+
+.footer .social li a {
+    color: #EDEFF1;
+}
+
+.footer .social li:hover {
+    border: 2px solid #2c3e50;
+    background: #2c3e50;
+}
+
+.footer .social li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
+}
+
+.footer .footer-bottom {
+    background: #1a1a1a;
+    border-top: 1px solid #1a1a1a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer .footer-bottom p.pull-left {
+    padding-top: 6px;
+}
+
+.footer .payments {
+    font-size: 1.5em;
+}
+
+/*===============End footer===============*/
