@@ -1,7 +1,7 @@
 # cvDZ
 ## The web Site for recruitment and share a cv
-## Description photos
-### Technologies used laravel 4.5 and bootstrap 3
+## Technologies used laravel 4.5 and bootstrap 3 
+### Some photos for the description
 ![Alt text](./public/uploads/Sitephoto/Background_01.PNG?raw=true "Index page")
 ![Alt text](./public/uploads/Sitephoto/Background_02.PNG?raw=true "Show CV page")
 ![Alt text](./public/uploads/Sitephoto/Background_03.PNG?raw=true "CV page")
